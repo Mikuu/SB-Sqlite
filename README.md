@@ -17,14 +17,15 @@ are working (at least to me), so I would like to add one more for public.
 
 ## Usage:
 
-Start demo API:
+* Start demo API:
 ```commandline
 ./gradlew bootRun
 ```
 
-Test Adding User data by sending a Post request to `http://localhost:8001/users/saveUser`:
+* Test Adding User data by sending a Post request to `http://localhost:8001/users/saveUser`:
 ![](screenshots/post.png)
-Test Getting User data by sending a GEt request to `http://localhost:8001/users/getUsers`:
+
+* Test Getting User data by sending a GEt request to `http://localhost:8001/users/getUsers`:
 ![](screenshots/get.png)
 
 ## Feedback
