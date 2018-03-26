@@ -17,6 +17,8 @@ are working (at least to me), so I would like to add one more for public.
 
 ## Usage:
 
+* Create a folder `database` on the root path.
+
 * Start demo API:
 ```commandline
 ./gradlew bootRun
