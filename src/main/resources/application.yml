@@ -8,7 +8,7 @@ spring:
   profiles: default
   datasource:
     driver-class-name: org.sqlite.JDBC
-    url: jdbc:sqlite:slave.db
+    url: jdbc:sqlite:database/slave.db
   jpa:
     database-platform: com.arxman.demo.sqlite.config.SQLiteDialect
     hibernate:
