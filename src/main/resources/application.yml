@@ -1,0 +1,16 @@
+---
+server:
+  port: 8001
+  servlet:
+    contextPath: /users
+---
+spring:
+  profiles: default
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:slave.db
+  jpa:
+    database-platform: com.arxman.demo.sqlite.config.SQLiteDialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
